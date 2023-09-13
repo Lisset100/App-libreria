@@ -71,6 +71,7 @@ h3 {text-align: justify;
   font-size:15px;
   justify-content: space-around;
   text-align:justify; 
+  padding-left: 40px;
 }
 
 </style>
