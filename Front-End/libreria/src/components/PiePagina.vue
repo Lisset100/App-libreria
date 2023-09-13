@@ -3,11 +3,15 @@
     <div class="container">
       <div class="footer-content">
         <div class="footer-section">
+         <div class="row">
+         <div class="col-md-6">
           <h3>Contacto</h3>
           <p>Correo electrónico: contacto@example.com</p>
           <p>Teléfono: +1234567890</p>
           <!-- Agrega aquí la información de contacto -->
         </div>
+      </div>
+     </div>
         <div class="footer-section">
           <h3>Páginas Legales</h3>
           <ul>
@@ -36,23 +40,37 @@ export default {
 <style scoped>
 /* Agrega estilos adicionales aquí si es necesario */
 .footer {
-  position: fixed;
+  position: auto;
   bottom: 0;
   left: 0;
   width: 100%;
   background-color: #071B60;
-  color: white;
+  color: #ffffff;
   padding: 20px 0;
   text-align: center;
+  height: auto; 
+  flex-direction: column;
+  justify-content: space-around;
 }
 
 .footer-content {
   display: flex;
   justify-content: space-around;
+  align-items: center;
+  height: 85px;
+}
+
+h3 {text-align: justify;
+  padding-left: 45px;
 }
 
 .footer-section {
-  flex: 1;
-  padding: 20px;
+  flex: auto;
+  padding: 15px;
+  height: auto;
+  font-size:15px;
+  justify-content: space-around;
+  text-align:justify; 
 }
+
 </style>

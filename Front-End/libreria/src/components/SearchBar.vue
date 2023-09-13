@@ -26,7 +26,7 @@
       <nav class="mt-3">
         <ul class="nav justify-content-center">
           <li class="nav-item">
-            <router-link to="/home" class="nav-link">Home</router-link>
+            <router-link to="/home" class="nav-link">HOME</router-link>
           </li>
           <li class="nav-item">
             <router-link to="/books" class="nav-link">BOOKS</router-link>
@@ -145,12 +145,13 @@ export default {
 /* Navigation bar styles */
 .nav {
   width: 100%;
+  height: 0px;
   background-color: #F6EDED;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   list-style: none;
-  padding: 0.5rem 0; /* Reduced padding to minimize space */
+  padding: 0; /* Reduced padding to minimize space */
 }
 /* Barra de navegación y sus estilos */
 .container-nav {
@@ -158,6 +159,7 @@ export default {
   padding: 1rem 0; /* Espaciado arriba y abajo */
   position: relative; /* Asegurar que otros estilos (como la sombra) se apliquen correctamente */
   z-index: 1; /* Para que se muestre encima de otros elementos si es necesario */
+  justify-content: space-around;
 }
 
 
