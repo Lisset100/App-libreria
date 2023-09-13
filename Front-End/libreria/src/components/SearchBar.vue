@@ -26,19 +26,19 @@
       <nav class="mt-3">
         <ul class="nav justify-content-center">
           <li class="nav-item">
-            <router-link to="/home" class="nav-link">HOME</router-link>
+            <router-link to="/home" class="nav-link">INICIO</router-link>
           </li>
           <li class="nav-item">
-            <router-link to="/books" class="nav-link">BOOKS</router-link>
+            <router-link to="/books" class="nav-link">LIBROS</router-link>
           </li>
           <li class="nav-item">
             <router-link to="/ebooks" class="nav-link">EBOOKS</router-link>
           </li>
           <li class="nav-item">
-            <router-link to="/catalogs" class="nav-link">CATALOGS</router-link>
+            <router-link to="/catalogs" class="nav-link">CATÁLOGOS</router-link>
           </li>
           <li class="nav-item">
-            <router-link to="/categories" class="nav-link">CATEGORIAS</router-link>
+            <router-link to="/categories" class="nav-link">CATEGORÍAS</router-link>
           </li>
         </ul>
       </nav>
