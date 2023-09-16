@@ -1,13 +1,17 @@
 <template>
     <div>
-      <h1>Ebooks page</h1>
+      <search-bar></search-bar> 
+      <h1>Audiolibros</h1>
     </div>
+   
   </template>
   
   <script>
+  import SearchBar from '../components/SearchBar' ;
   export default {
-    name: 'EbooksPage' 
-    
+    name: 'EbooksPage', 
+     components: {
+    'search-bar': SearchBar
+   }
   }
   </script>
-  

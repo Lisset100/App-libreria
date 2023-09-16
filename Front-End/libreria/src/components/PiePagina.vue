@@ -61,7 +61,7 @@ export default {
 }
 
 h3 {text-align: justify;
-  padding-left: 45px;
+  padding-left: 20px;
 }
 
 .footer-section {

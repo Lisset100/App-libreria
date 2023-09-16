@@ -1,21 +1,26 @@
-<template>
-  <div class="container">
+<template class="col-xs-12 col-sm-6 col-md-8">
+  <div class= "navbar navbar-light" style="background-color: #071b60;"> 
     <!-- ICONO -->
   <div class="logo-container">
     <img :src="logoImage" alt="Logo" class="logo" />
   </div>
 
     <!-- Barra de búsqueda -->
-    <div class="search-container card flex justify-content-center gap-3 mb-4">
-      <InputText class="search-input" placeholder="Search" />
-      <Button class="search-button" icon="pi pi-search" severity="success" text rounded aria-label="Search" />
+    <div>
+     <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-info my-2 my-sm-0" type="submit">Search</button>
+    </form>
+      <InputText placeholder="Search" />
+      
     </div>
 
     <!--------ICONOS DEL LADO DERECHO--->
 
     <div class="flex-auto">
-     <Button icon="pi pi-user" severity="info" text rounded aria-label="User" />
-      <Button icon="pi pi-shopping-cart" severity="warning" text rounded aria-label="Notification" />
+
+     <Button icon="pi pi-user" severity="info" text rounded aria-label="User"/>
+     <Button icon="pi pi-shopping-cart" severity="warning" text rounded aria-label="Notification"/>
      
     </div>
 </div>
@@ -32,7 +37,7 @@
             <router-link to="/books" class="nav-link">LIBROS</router-link>
           </li>
           <li class="nav-item">
-            <router-link to="/ebooks" class="nav-link">EBOOKS</router-link>
+            <router-link to="/ebooks" class="nav-link">AUDIOLIBROS</router-link>
           </li>
           <li class="nav-item">
             <router-link to="/catalogs" class="nav-link">CATÁLOGOS</router-link>
@@ -43,10 +48,7 @@
         </ul>
       </nav>
     </div>
-
-
-
-    </div>
+</div>
 </template>
 
 
@@ -72,7 +74,8 @@ export default {
 
 <style scoped>
 /* Estilos generales */
-.container {
+.navbar navbar-light {
+    width: 100%;
     background-color: #071B60; /* Color de fondo principal */
     padding: 1rem;
     display: flex; /* Disposición horizontal de los elementos */
@@ -89,42 +92,39 @@ export default {
 .logo {
     width: 100px; /* Puedes ajustar según la imagen */
     height: auto;
+    position: relative;
+    left: 35px;
 }
 
 /* Estilos para la barra de búsqueda */
 
 .search-input {
-    width: 70%;  /* Reduciendo el tamaño de la barra de búsqueda */
+    width: 20px;  /* Reduciendo el tamaño de la barra de búsqueda */
     margin-right: 0.5rem; /* Espacio entre la barra y el botón */
+    padding: 0;
 }
 
-.search-container {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    background-color: #fff;
-    border-radius: 25px; /* Bordes redondeados */
+.form-inline {
+    display: inline-flex;
+    justify-content: left;
+    align-items: left;
     padding: 0.5rem 1rem; /* Espaciado interno */
+    width: 500px;
     flex: 1; /* Toma el espacio disponible */
     margin-left: 1rem; /* Margen entre el logo y la barra de búsqueda */
     margin-right: 1rem; /* Margen entre la barra de búsqueda y los iconos */
+    height: auto;
+    border-radius: 8%;
+    position: relative;
+    left: -168px;
   
   }
   .flex-auto .pi {
     font-size: 25rem; /* Aumenta o ajusta según tu preferencia */
-    .search-button {
-    background-color: #4CAF50; /* Color de fondo del botón */
-    border: none; /* Elimina el borde */
-    color: white; /* Color del texto */
-    padding: 8px 16px; /* Espaciado interno */
-    text-align: center; /* Alineación del texto */
-    text-decoration: none; /* Elimina el subrayado */
-    display: inline-block; /* Hace que el botón sea en línea */
-    font-size: 16px; /* Tamaño del texto */
-    margin: 4px 2px; /* Margen alrededor del botón */
-    cursor: pointer; /* Cambia el cursor al pasar el mouse */
-    border-radius: 12px; /* Bordes redondeados */
-}}
+    position: relative;
+    right: 500px;
+  
+}
 .search-button {
     margin-left: 5rem;  /* Espacio entre la barra de búsqueda y el botón */
 }
@@ -135,10 +135,13 @@ export default {
     height: 40px;  /* Ajusta la altura según tus preferencias */
     padding: 10px 20px; /* Ajusta el espaciado interno si es necesario */
     font-size: 16px; /* Ajusta el tamaño de la fuente si es necesario */
+    position: relative;
+    right: 80px;
 }
 
 .flex-auto Button .pi {
     font-size: 24px;  /* Ajusta el tamaño del ícono según tus preferencias */
+    padding: 10px 20px; /* Ajusta el espaciado interno si es necesario */
 }
 
 
@@ -166,7 +169,9 @@ export default {
 .nav-item {
   margin-right: 4rem; /* Espaciado entre los elementos */
   position: relative; /* Para la sombra y el hover */
+  top: -35px;
   transition: box-shadow 0.3s ease; /* Transición suave de la sombra */
+  
 }
 
 .nav-item:hover {

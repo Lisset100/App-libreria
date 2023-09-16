@@ -1,3 +1,4 @@
+
 <template>
     <div class="carrusel-container">
       <div class="carrusel-slides" :style="{ 'transform': `translateX(-${currentSlide * 100}%)` }">
