@@ -5,13 +5,15 @@
   <main>
 
     <!-- breadcrumb-area-start -->
-      <div class="container">
-        <div class="row">
-          <div class="col-xl-12">
-            <div class="breadcrumb-text text-center"><h1>Catalogos</h1></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-12">
+          <div class="breadcrumb-text text-center">
+            <h1>Catalogos</h1>
           </div>
         </div>
-        </div>
+      </div>
+    </div>
     <!-- breadcrumb-area-end -->
 
     <!-- shop-area start -->
@@ -55,23 +57,34 @@
                 <ul class="shop-link">
                   <li><a href="shop.html"><i class="far fa-square"></i> Esp</a></li>
                   <li><a href="shop.html"><i class="far fa-square"></i> Engl</a></li>
-             </ul>
-                </div>
+                </ul>
+              </div>
 
               <div class="shop-widget">
                 <h3 class="shop-title">Editoriales</h3>
                 <ul class="shop-link">
                   <li><a href="shop.html"><i class="far fa-square"></i> Trillas</a></li>
                   <li><a href="shop.html"><i class="far fa-square"></i> Santillana</a></li>
-             </ul>
-                </div>
+                </ul>
+              </div>
 
               <div class="shop-widget">
                 <h3 class="shop-title">Formatos</h3>
                 <ul class="shop-tag">
                   <li><a href="shop.html"> Digital</a></li>
                   <li><a href="shop.html"> Fisico</a></li>
-                  </ul>
+                </ul>
+              </div>
+              <div class="shop-widget">
+                <h3 class="shop-title">color</h3>
+                <ul class="shop-link">
+                  <li><a href="shop.html"><span class="blue"></span> Azul</a></li>
+                  <li><a href="shop.html"><span class="green"></span> Verde</a></li>
+                  <li><a href="shop.html"><span class="orange"></span> Anaranjado</a></li>
+                  <li><a href="shop.html"><span class="navy"></span> Azul-marino</a></li>
+                  <li><a href="shop.html"><span class="pinkish"></span> Rosa</a></li>
+                  <li><a href="shop.html"><span class="vista"></span> Blanco</a></li>
+                </ul>
               </div>
 
               <div class="shop-widget">
@@ -79,7 +92,9 @@
                 <ul class="shop-sidebar-product">
                   <li>
                     <div class="side-pro-img">
-                      <a href="product-details.html"><img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1397497541l/20560907.jpg" alt=""></a>
+                      <a href="product-details.html"><img
+                          src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1397497541l/20560907.jpg"
+                          alt=""></a>
                     </div>
                     <div class="side-pro-content">
                       <div class="side-pro-rating">
@@ -97,7 +112,8 @@
                   </li>
                   <li>
                     <div class="side-pro-img">
-                      <a href="product-details.html"><img src="https://th.bing.com/th/id/OIP.l_srAYwg9jJPJbO4AHpFpQHaJs?pid=ImgDet&rs=1" alt=""></a>
+                      <a href="product-details.html"><img
+                          src="https://th.bing.com/th/id/OIP.l_srAYwg9jJPJbO4AHpFpQHaJs?pid=ImgDet&rs=1" alt=""></a>
                     </div>
                     <div class="side-pro-content">
                       <div class="side-pro-rating">
@@ -115,7 +131,9 @@
                   </li>
                   <li>
                     <div class="side-pro-img">
-                      <a href="product-details.html"><img src="https://th.bing.com/th/id/R.8c7f1fcb8937b67dafd4c12bff29b918?rik=B8FI2vAuaajeCg&pid=ImgRaw&r=0" alt=""></a>
+                      <a href="product-details.html"><img
+                          src="https://th.bing.com/th/id/R.8c7f1fcb8937b67dafd4c12bff29b918?rik=B8FI2vAuaajeCg&pid=ImgRaw&r=0"
+                          alt=""></a>
                     </div>
                     <div class="side-pro-content">
                       <div class="side-pro-rating">
@@ -133,7 +151,8 @@
                   </li>
                   <li>
                     <div class="side-pro-img">
-                      <a href="product-details.html"><img src="https://files.readanybook.com/1181131/files/magic-edge.jpg" alt=""></a>
+                      <a href="product-details.html"><img src="https://files.readanybook.com/1181131/files/magic-edge.jpg"
+                          alt=""></a>
                     </div>
                     <div class="side-pro-content">
                       <div class="side-pro-rating">
@@ -995,15 +1014,16 @@
 
   </main>
 
-<a id="scrollUp" href="#top" style="position: fixed; z-index: 2147483647; display: block;">
-  <i class="fas fa-angle-double-up"></i>
-</a></template>
+  <a id="scrollUp" href="#top" style="position: fixed; z-index: 2147483647; display: block;">
+    <i class="fas fa-angle-double-up"></i>
+  </a>
+</template>
   
 <script>
 import Header from '../components/Header.vue'
 export default {
   name: 'BooksPage',
-    components: {
+  components: {
     "my-header": Header,
   }
 }
