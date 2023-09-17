@@ -3,6 +3,7 @@
     <!-- Navegación Essta pagina es la que se compila, es decir como el index-->
     
   
+    <!-- Contenido principal -->
     <main>
       <router-view></router-view>
     </main>
