@@ -90,26 +90,24 @@
 <a id="scrollUp" href="#top" style="position: fixed; z-index: 2147483647; display: block;">
        <i class="fas fa-angle-double-up"></i>
     </a>
-</template>
 
-<footer>
+    <footer>
     <my-footer></my-footer>
 </footer>
 
-<script>
+</template>
 
+
+<script>
+import Footer from '../components/Footer.vue';
 import Header from '../components/Header.vue' ;
 export default {
-  name: 'CartsPage', 
+  name: 'CartsPage',
    components: {
     'my-header': Header,
-    "my-footer": Footer,
+    'my-footer': Footer,
   }
  
 }
 </script>
-<style scoped>
-
-
-</style>
 ```

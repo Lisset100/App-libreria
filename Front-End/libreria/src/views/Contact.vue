@@ -114,11 +114,12 @@
 import Header from '../components/Header.vue';
 import 'leaflet/dist/leaflet.css';
 import L from 'leaflet';
-
+import Footer from '../components/Footer.vue';
 export default {
     name: 'ContactPage',
     components: {
-        'my-header': Header
+        'my-header': Header,
+        'my-footer': Footer,
     },
     data() {
         return {

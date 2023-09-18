@@ -20,7 +20,7 @@
                             <ul>
                                 <li><router-link to="/home"><i class="flaticon-shopping-cart-1"></i> Inicio</router-link></li>
                                 <li><router-link to="/books"><i class="flaticon-shopping-cart-1"></i> Libros</router-link></li>
-                                <li><router-link to="/books"><i class="flaticon-shopping-cart-1"></i> Catalogos</router-link></li>
+                                <li><router-link to="/catalog"><i class="flaticon-shopping-cart-1"></i> Catalogos</router-link></li>
                                 <li><router-link to="/shop"><i class="flaticon-shopping-cart-1"></i> Compras</router-link></li>
                                 <li><router-link to="/login"><i class="flaticon-shopping-cart-1"></i> Login</router-link></li>
 
@@ -59,19 +59,19 @@
                                                 <a href="index.html#">Categorias</a>
                                                 <ul class="submenu">
                                                     <li>
-                                                        <router-link to="/catlogs">Infantil</router-link>
+                                                        <router-link to="/catlog">Infantil</router-link>
                                                     </li>
                                                     <li>
-                                                        <router-link to="/catalogs">Juvenil</router-link>
+                                                        <router-link to="/catalog">Juvenil</router-link>
                                                     </li>
                                                     <li>
-                                                        <router-link to="/catalogs">Escolar</router-link>
+                                                        <router-link to="/catalog">Escolar</router-link>
                                                     </li>
                                                     <li>
-                                                        <router-link to="/catalogs">Comedia</router-link>
+                                                        <router-link to="/catalog">Comedia</router-link>
                                                     </li>
                                                     <li>
-                                                        <router-link to="/catalogs">Mas ...</router-link>
+                                                        <router-link to="/catalog">Mas ...</router-link>
                                                     </li>
                                                 </ul>
                                             </li>
@@ -79,7 +79,7 @@
                                     </li>
 
                                     <li>
-                                        <router-link to="/catalogs">Catalogos</router-link>
+                                        <router-link to="/catalog">Catalogos</router-link>
                                     </li>
 
                                     <li>
@@ -229,16 +229,16 @@
                                                 </li>
                                                 <li><a href="index.html#">Categorias</a>
                                                     <ul class="submenu">
-                                                        <li><router-link to="/catlogs">Infantil</router-link></li>
-                                                        <li><router-link to="/catalogs">Juvenil</router-link></li>
-                                                        <li><router-link to="/catalogs">Escolar</router-link></li>
-                                                        <li><router-link to="/catalogs">Comedia</router-link></li>
-                                                        <li><router-link to="/catalogs">Mas ...</router-link></li>
+                                                        <li><router-link to="/catlog">Infantil</router-link></li>
+                                                        <li><router-link to="/catalog">Juvenil</router-link></li>
+                                                        <li><router-link to="/catalog">Escolar</router-link></li>
+                                                        <li><router-link to="/catalog">Comedia</router-link></li>
+                                                        <li><router-link to="/catalog">Mas ...</router-link></li>
                                                     </ul>
                                                 </li>
                                             </ul>
                                         </li>
-                                        <li><router-link to="/catalogs">Catalogos</router-link></li>
+                                        <li><router-link to="/catalog">Catalogos</router-link></li>
                                         <li><router-link to="/shop">Compras</router-link></li>
                                         <li><a href="index.html#">Registro</a>
                                             <ul class="submenu">
