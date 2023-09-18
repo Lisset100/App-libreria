@@ -8,98 +8,34 @@
     <main>
 
     <!-- breadcrumb-area-start -->
-    <section class="breadcrumb-area" data-background="img/bg/page-title.png">
+    <section class="breadcrumb-area" >
         <div class="container">
             <div class="row">
                 <div class="col-xl-12">
                     <div class="breadcrumb-text text-center">
                         <h1>Checkout</h1>
-                        <ul class="breadcrumb-menu">
-                            <li><a href="index.html">home</a></li>
-                            <li><span>Checkout</span></li>
-                        </ul>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <!-- breadcrumb-area-end -->
 
-    <!-- coupon-area start -->
-    <section class="coupon-area pt-100 pb-30">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="coupon-accordion">
-                        <!-- ACCORDION START -->
-                        <h3>Returning customer? <span id="showlogin">Click here to login</span></h3>
-                        <div id="checkout-login" class="coupon-content">
-                            <div class="coupon-info">
-                                <p class="coupon-text">Quisque gravida turpis sit amet nulla posuere lacinia. Cras sed est
-                                    sit amet ipsum luctus.</p>
-                                <form action="checkout.html#">
-                                    <p class="form-row-first">
-                                        <label>Username or email <span class="required">*</span></label>
-                                        <input type="text" />
-                                    </p>
-                                    <p class="form-row-last">
-                                        <label>Password <span class="required">*</span></label>
-                                        <input type="text" />
-                                    </p>
-                                    <p class="form-row">
-                                        <button class="btn theme-btn" type="submit">Login</button>
-                                        <label>
-                                            <input type="checkbox" />
-                                            Remember me
-                                        </label>
-                                    </p>
-                                    <p class="lost-password">
-                                        <a href="checkout.html#">Lost your password?</a>
-                                    </p>
-                                </form>
-                            </div>
-                        </div>
-                        <!-- ACCORDION END -->
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="coupon-accordion">
-                        <!-- ACCORDION START -->
-                        <h3>Have a coupon? <span id="showcoupon">Click here to enter your code</span></h3>
-                        <div id="checkout_coupon" class="coupon-checkout-content">
-                            <div class="coupon-info">
-                                <form action="checkout.html#">
-                                    <p class="checkout-coupon">
-                                        <input type="text" placeholder="Coupon Code" />
-                                        <button class="btn theme-btn" type="submit">Apply Coupon</button>
-                                    </p>
-                                </form>
-                            </div>
-                        </div>
-                        <!-- ACCORDION END -->
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- coupon-area end -->
-    <!-- checkout-area start -->
     <section class="checkout-area pb-70">
         <div class="container">
             <form action="checkout.html#">
                 <div class="row">
                     <div class="col-lg-6">
                         <div class="checkbox-form">
-                            <h3>Billing Details</h3>
+                            <h3>Detalles de Compra</h3>
                             <div class="row">
                                 <div class="col-md-12">
                                     <div class="country-select">
-                                        <label>Country <span class="required">*</span></label>
+                                        <label>Pais <span class="required">*</span></label>
                                         <select>
-                                            <option value="volvo">bangladesh</option>
-                                            <option value="saab">Algeria</option>
-                                            <option value="mercedes">Afghanistan</option>
-                                            <option value="audi">Ghana</option>
+                                            <option value="volvo">Mexico</option>
+                                            <option value="saab">Estado de Mexico</option>
+                                            <option value="mercedes">Toluca</option>
+                                            <option value="audi">Colombia</option>
                                             <option value="audi2">Albania</option>
                                             <option value="audi3">Bahrain</option>
                                             <option value="audi4">Colombia</option>
@@ -400,7 +336,6 @@
             </form>
         </div>
     </section>
-    <!-- checkout-area end -->
 
 
     </main>

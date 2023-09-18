@@ -10,6 +10,7 @@ import Footer from "../components/Footer.vue";
 import Header from "../components/Header.vue";
 import Contact from "../views/Contact.vue";
 import Description from "../views/Description.vue";
+import Checkout from "../views/Checkout.vue";
 
 
 const routes = [
@@ -25,6 +26,7 @@ const routes = [
   { path: "/header", component: Header },
   { path: "/contact", component: Contact },
   { path: "/description", component: Description},
+  { path: "/checkout", component: Checkout},
 
 ];
 
