@@ -103,7 +103,9 @@
     <section class="map-area">
         <div id="map" style="height: 400px;"></div>
     </section>
-
+<footer>
+    <my-footer></my-footer>
+</footer>
     <a id="scrollUp" href="#top" style="position: fixed; z-index: 2147483647; display: block;">
        <i class="fas fa-angle-double-up"></i>
     </a>

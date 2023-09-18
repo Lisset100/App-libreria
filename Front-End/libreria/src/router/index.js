@@ -9,6 +9,7 @@ import Carts from "../views/Carts.vue";
 import Footer from "../components/Footer.vue";
 import Header from "../components/Header.vue";
 import Contact from "../views/Contact.vue";
+import Description from "../views/Description.vue"
 
 const routes = [
   { path: "/", component: Home },
@@ -22,6 +23,8 @@ const routes = [
   { path: "/footer", component: Footer },
   { path: "/header", component: Header },
   { path: "/contact", component: Contact },
+  { path: "/description", component: Description},
+
 ];
 
 const router = createRouter({

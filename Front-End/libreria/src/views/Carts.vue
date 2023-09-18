@@ -92,6 +92,9 @@
     </a>
 </template>
 
+<footer>
+    <my-footer></my-footer>
+</footer>
 
 <script>
 
@@ -99,9 +102,10 @@ import Header from '../components/Header.vue' ;
 export default {
   name: 'CartsPage', 
    components: {
-    'my-header': Header
-  
- }
+    'my-header': Header,
+    "my-footer": Footer,
+  }
+ 
 }
 </script>
 <style scoped>

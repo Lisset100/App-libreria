@@ -18,14 +18,15 @@
                         <div class="category-menu" v-if="isMenuOpen">
                             <h4>Menu</h4>
                             <ul>
-                                <li><a href="shop.html"><i class="flaticon-shopping-cart-1"></i> Inicio</a></li>
-                                <li><a href="shop.html"><i class="flaticon-shopping-cart-1"></i> Libros</a></li>
-                                <li><a href="shop.html"><i class="flaticon-shopping-cart-1"></i> Catalogos</a></li>
-                                <li><a href="shop.html"><i class="flaticon-shopping-cart-1"></i> Compras</a></li>
-                                <li><a href="shop.html"><i class="flaticon-shopping-cart-1"></i> Login</a></li>
+                                <li><router-link to="/home"><i class="flaticon-shopping-cart-1"></i> Inicio</router-link></li>
+                                <li><router-link to="/books"><i class="flaticon-shopping-cart-1"></i> Libros</router-link></li>
+                                <li><router-link to="/books"><i class="flaticon-shopping-cart-1"></i> Catalogos</router-link></li>
+                                <li><router-link to="/shop"><i class="flaticon-shopping-cart-1"></i> Compras</router-link></li>
+                                <li><router-link to="/login"><i class="flaticon-shopping-cart-1"></i> Login</router-link></li>
 
                             </ul>
-                        </div>
+                            
+                        </div> 
                     </div>
                     <div class="col-xl-8 col-lg-6 col-md-8 col-8 d-none d-xl-block">
                         <div class="main-menu text-center">
@@ -33,6 +34,7 @@
                                 <ul>
                                     <li>
                                         <router-link to="/home">home</router-link>
+
                                     </li>
 
 
@@ -40,16 +42,16 @@
                                         <router-link to="/books">Libros</router-link>
                                         <ul class="submenu ">
                                             <li>
-                                                <a href="index.html#">Explorar</a>
+                                                <router-link to="/books">Explorar</router-link>
                                                 <ul class="submenu  level-1">
                                                     <li>
-                                                        <a href="shop.html">Novedades</a>
+                                                        <router-link to="/books">Novedades</router-link>
                                                     </li>
                                                     <li>
-                                                        <a href="shop-filter.html">Recomendaciones</a>
+                                                        <router-link to="/books">Recomendaciones</router-link>
                                                     </li>
                                                     <li>
-                                                        <a href="shop-full.html">Ebooks</a>
+                                                        <router-link to="/books">Ebooks</router-link>
                                                     </li>
                                                 </ul>
                                             </li>
