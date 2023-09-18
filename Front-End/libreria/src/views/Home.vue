@@ -6,14 +6,14 @@
   </header>
     <main>  
 
-            <!-- product-area start -->
-            <section class="product-area box-90 pt-45 pb-40">
-                <div class="container-fluid">
-                    <div class="row">
+      <!-- product-area start -->
+        <section class="product-area box-90 pt-45 pb-40">
+            <div class="container-fluid">
+              <div class="row">
                         <div class="col-xl-5 col-lg-12">
                             <div class="area-title mb-50">
-                                <h2>Best Sell Products</h2>
-                                <p>Browse the huge variety of our products</p>
+                                <h2>Los más leídos</h2>
+                                <p>Encuentra tu libro aquí</p>
                             </div>
                         </div>
                         <div class="col-xl-7 col-lg-12">
@@ -21,19 +21,19 @@
                                 <ul class="nav product-nav justify-content-xl-end" id="myTab" role="tablist">
                                     <li class="nav-item">
                                         <a class="nav-link active" id="home-tab1" data-toggle="tab" href="index.html#home1" role="tab"
-                                            aria-controls="home" aria-selected="true">table lamp</a>
+                                          aria-controls="home" aria-selected="true">Infantil</a>
                                     </li>
                                     <li class="nav-item">
                                         <a class="nav-link" id="profile-tab1" data-toggle="tab" href="index.html#profile1" role="tab"
-                                            aria-controls="profile" aria-selected="false">furniture</a>
+                                          aria-controls="profile" aria-selected="false">Novelas</a>
                                     </li>
                                     <li class="nav-item">
                                         <a class="nav-link" id="contact-tab6" data-toggle="tab" href="index.html#contact1" role="tab"
-                                            aria-controls="contact" aria-selected="false">chair</a>
+                                            aria-controls="contact" aria-selected="false">Arte</a>
                                     </li>
                                     <li class="nav-item">
                                         <a class="nav-link" id="contact-tab2" data-toggle="tab" href="index.html#contact2" role="tab"
-                                            aria-controls="contact" aria-selected="false">Clock</a>
+                                          aria-controls="contact" aria-selected="false">Terror</a>
                                     </li>
                                 </ul>
                             </div>
