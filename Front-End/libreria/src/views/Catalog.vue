@@ -92,11 +92,11 @@
                                     </div>
                                     <div class="product-content">
                                         <div class="pro-cat mb-10">
-                                            <a href="shop.html">decor, </a>
+                                            <a href="shop.html">library, </a>
                                             <a href="shop.html">furniture</a>
                                         </div>
                                         <h4>
-                                            <a href="product-details.html">Minimal Troma Furniture</a>
+                                            <a href="product-details.html">Construyendo mi futuro</a>
                                         </h4>
                                         <div class="product-meta">
                                             <div class="pro-price">
@@ -135,11 +135,11 @@
                                     </div>
                                     <div class="product-content">
                                         <div class="pro-cat mb-10">
-                                            <a href="shop.html">decor, </a>
+                                            <a href="shop.html">library, </a>
                                             <a href="shop.html">furniture</a>
                                         </div>
                                         <h4>
-                                            <a href="product-details.html">Minimal Troma Furniture</a>
+                                            <a href="product-details.html">Tech Power</a>
                                         </h4>
                                         <div class="product-meta">
                                             <div class="pro-price">
@@ -157,7 +157,7 @@
                                 <div class="product-wrapper mb-50">
                                     <div class="product-img mb-25">
                                         <a href="product-details.html">
-                                            <img src="img/product/pro29.jpg" alt="">
+                                            <img src="https://th.bing.com/th/id/R.e629c5dba9b5a8a2e6992b5be2d37ac8?rik=knUkw%2beZz9RJZA&pid=ImgRaw&r=0" alt="">
                                             <img class="secondary-img" src="https://th.bing.com/th/id/OIP.EmHCmiQgZJdzQ-zwDpp24QHaEK?pid=ImgDet&w=474&h=266&rs=1" alt="">
                                         </a>
                                         <div class="product-action text-center">
@@ -174,11 +174,11 @@
                                     </div>
                                     <div class="product-content">
                                         <div class="pro-cat mb-10">
-                                            <a href="shop.html">decor, </a>
+                                            <a href="shop.html">library, </a>
                                             <a href="shop.html">furniture</a>
                                         </div>
                                         <h4>
-                                            <a href="product-details.html">Minimal Troma Furniture</a>
+                                            <a href="product-details.html">TechPower</a>
                                         </h4>
                                         <div class="product-meta">
                                             <div class="pro-price">
@@ -196,7 +196,7 @@
                                 <div class="product-wrapper mb-50">
                                     <div class="product-img mb-25">
                                         <a href="product-details.html">
-                                            <img src="img/product/pro3.jpg" alt="">
+                                            <img src="https://files.readanybook.com/1181131/files/magic-edge.jpg" alt="">
                                             <img class="secondary-img" src="https://th.bing.com/th/id/OIP.EmHCmiQgZJdzQ-zwDpp24QHaEK?pid=ImgDet&w=474&h=266&rs=1" alt="">
                                         </a>
                                         <div class="product-action text-center">
@@ -213,11 +213,11 @@
                                     </div>
                                     <div class="product-content">
                                         <div class="pro-cat mb-10">
-                                            <a href="shop.html">decor, </a>
+                                            <a href="shop.html">library, </a>
                                             <a href="shop.html">furniture</a>
                                         </div>
                                         <h4>
-                                            <a href="product-details.html">Minimal Troma Furniture</a>
+                                            <a href="product-details.html">TechPower</a>
                                         </h4>
                                         <div class="product-meta">
                                             <div class="pro-price">
@@ -235,7 +235,7 @@
                                 <div class="product-wrapper mb-50">
                                     <div class="product-img mb-25">
                                         <a href="product-details.html">
-                                            <img src="img/product/pro6.jpg" alt="">
+                                            <img src="https://th.bing.com/th/id/OIP.ty5YLVKXfpogjgrK9bVW4QHaJs?pid=ImgDet&rs=1" alt="">
                                             <img class="secondary-img" src="https://th.bing.com/th/id/OIP.lK7EMEw0tt9rTo5stK5vZAHaEK?pid=ImgDet&rs=1" alt="">
                                         </a>
                                         <div class="product-action text-center">
@@ -252,11 +252,11 @@
                                     </div>
                                     <div class="product-content">
                                         <div class="pro-cat mb-10">
-                                            <a href="shop.html">decor, </a>
+                                            <a href="shop.html">library </a>
                                             <a href="shop.html">furniture</a>
                                         </div>
                                         <h4>
-                                            <a href="product-details.html">Minimal Troma Furniture</a>
+                                            <a href="product-details.html">TechPower</a>
                                         </h4>
                                         <div class="product-meta">
                                             <div class="pro-price">
@@ -274,7 +274,7 @@
                                 <div class="product-wrapper mb-50">
                                     <div class="product-img mb-25">
                                         <a href="product-details.html">
-                                            <img src="img/product/pro19.jpg" alt="">
+                                            <img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1397497541l/20560907.jpg" alt="">
                                             <img class="secondary-img" src="https://th.bing.com/th/id/OIP.EmHCmiQgZJdzQ-zwDpp24QHaEK?pid=ImgDet&w=474&h=266&rs=1" alt="">
                                         </a>
                                         <div class="product-action text-center">
@@ -294,11 +294,11 @@
                                     </div>
                                     <div class="product-content">
                                         <div class="pro-cat mb-10">
-                                            <a href="shop.html">decor, </a>
+                                            <a href="shop.html">library, </a>
                                             <a href="shop.html">furniture</a>
                                         </div>
                                         <h4>
-                                            <a href="product-details.html">Minimal Troma Furniture</a>
+                                            <a href="product-details.html">TechPower</a>
                                         </h4>
                                         <div class="product-meta">
                                             <div class="pro-price">
@@ -316,7 +316,7 @@
                                 <div class="product-wrapper mb-50">
                                     <div class="product-img mb-25">
                                         <a href="product-details.html">
-                                            <img src="img/product/pro33.jpg" alt="">
+                                            <img src="https://th.bing.com/th/id/OIP.HCzu5qIhFaYQVSrvbXHiRQHaKO?pid=ImgDet&rs=1" alt="">
                                             <img class="secondary-img" src="https://th.bing.com/th/id/OIP.EmHCmiQgZJdzQ-zwDpp24QHaEK?pid=ImgDet&w=474&h=266&rs=1" alt="">
                                         </a>
                                         <div class="product-action text-center">
@@ -333,11 +333,11 @@
                                     </div>
                                     <div class="product-content">
                                         <div class="pro-cat mb-10">
-                                            <a href="shop.html">decor, </a>
+                                            <a href="shop.html">library, </a>
                                             <a href="shop.html">furniture</a>
                                         </div>
                                         <h4>
-                                            <a href="product-details.html">Minimal Troma Furniture</a>
+                                            <a href="product-details.html">TechPower</a>
                                         </h4>
                                         <div class="product-meta">
                                             <div class="pro-price">
@@ -355,7 +355,7 @@
                                 <div class="product-wrapper mb-50">
                                     <div class="product-img mb-25">
                                         <a href="product-details.html">
-                                            <img src="img/product/pro9.jpg" alt="">
+                                            <img src="https://th.bing.com/th/id/R.8c7f1fcb8937b67dafd4c12bff29b918?rik=B8FI2vAuaajeCg&pid=ImgRaw&r=0" alt="">
                                             <img class="secondary-img" src="https://th.bing.com/th/id/OIP.EmHCmiQgZJdzQ-zwDpp24QHaEK?pid=ImgDet&w=474&h=266&rs=1" alt="">
                                         </a>
                                         <div class="product-action text-center">
@@ -372,11 +372,11 @@
                                     </div>
                                     <div class="product-content">
                                         <div class="pro-cat mb-10">
-                                            <a href="shop.html">decor, </a>
+                                            <a href="shop.html">library, </a>
                                             <a href="shop.html">furniture</a>
                                         </div>
                                         <h4>
-                                            <a href="product-details.html">Minimal Troma Furniture</a>
+                                            <a href="product-details.html">TechPower</a>
                                         </h4>
                                         <div class="product-meta">
                                             <div class="pro-price">
@@ -398,7 +398,7 @@
                                 <div class="product-wrapper mb-30">
                                     <div class="product-img">
                                         <a href="product-details.html">
-                                            <img src="img/product/pro13.jpg" alt="">
+                                            <img src="https://th.bing.com/th/id/OIP.l_srAYwg9jJPJbO4AHpFpQHaJs?pid=ImgDet&rs=1" alt="">
                                             <img class="secondary-img" src='https://th.bing.com/th/id/OIP.EmHCmiQgZJdzQ-zwDpp24QHaEK?pid=ImgDet&w=474&h=266&rs=1' alt="">
                                         </a>
                                     </div>
