@@ -173,14 +173,14 @@
 
               <div class="shop-widget">
                 <div class="shop-sidebar-banner">
-                  <a href="shop.html"><img src="img/banner/shop-banner.jpg" alt=""></a>
+                  <a href="shop.html"><img src="https://i.pinimg.com/originals/a4/68/21/a468217a14357c12915691ca6b6b4b99.jpg" alt=""></a>
                 </div>
               </div>
             </div>
           </div>
           <div class="col-xl-8 col-lg-8">
             <div class="shop-banner mb-50">
-              <img src="img/bg/shop-banner.jpg" alt="">
+              <img src="../assets/carrusel1.png" alt="">
             </div>
             <!-- tab filter -->
             <div class="row mb-10">
@@ -205,10 +205,10 @@
                 <div class="pro-filter mb-40 f-right">
                   <form action="shop-left-sidebar.html#">
                     <select name="pro-filter" id="pro-filter">
-                      <option value="1">Shop By </option>
-                      <option value="2">Top Sales </option>
-                      <option value="3">New Product </option>
-                      <option value="4">A to Z Product </option>
+                      <option value="1">Ordenar Por </option>
+                      <option value="2">Mas vendidos</option>
+                      <option value="3">Nuevos productos</option>
+                      <option value="4">Alfabeticamente </option>
                     </select>
                   </form>
                 </div>
@@ -222,8 +222,8 @@
                     <div class="product-wrapper mb-50">
                       <div class="product-img mb-25">
                         <a href="product-details.html">
-                          <img src="img/product/pro13.jpg" alt="">
-                          <img class="secondary-img" src="img/product/pro14.jpg" alt="">
+                          <img src="https://th.bing.com/th/id/OIP.l_srAYwg9jJPJbO4AHpFpQHaJs?pid=ImgDet&rs=1" alt="">
+                          <img class="secondary-img" src="https://www.meme-arsenal.com/memes/38447d658c1f35f854049c82240c5cdc.jpg" alt="">
                         </a>
                         <div class="product-action text-center">
                           <a href="shop-left-sidebar.html#" title="Shoppingb Cart">
@@ -239,11 +239,50 @@
                       </div>
                       <div class="product-content">
                         <div class="pro-cat mb-10">
-                          <a href="shop.html">decor, </a>
-                          <a href="shop.html">furniture</a>
+                          <a href="shop.html">Infantil,</a>
+                          <a href="shop.html">Clasico</a>
                         </div>
                         <h4>
-                          <a href="product-details.html">Minimal Troma Furniture</a>
+                          <a href="product-details.html">El principito</a>
+                        </h4>
+                        <div class="product-meta">
+                          <div class="pro-price">
+                            <span>$90.00 MXN</span>
+                            <span class="old-price">$130.00 MXN</span>
+                          </div>
+                        </div>
+                        <div class="product-wishlist">
+                          <a href="shop-left-sidebar.html#"><i class="far fa-heart" title="Wishlist"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-6 col-md-6">
+                    <div class="product-wrapper mb-50">
+                      <div class="product-img mb-25">
+                        <a href="product-details.html">
+                          <img src="https://th.bing.com/th/id/R.8c7f1fcb8937b67dafd4c12bff29b918?rik=B8FI2vAuaajeCg&pid=ImgRaw&r=0" alt="">
+                          <img class="secondary-img" src="https://th.bing.com/th/id/OIP.HCzu5qIhFaYQVSrvbXHiRQHaKO?pid=ImgDet&rs=1" alt="">
+                        </a>
+                        <div class="product-action text-center">
+                          <a href="shop-left-sidebar.html#" title="Shoppingb Cart">
+                            <i class="flaticon-shopping-cart"></i>
+                          </a>
+                          <a href="shop-left-sidebar.html#" title="Quick View">
+                            <i class="flaticon-eye"></i>
+                          </a>
+                          <a href="shop-left-sidebar.html#" data-toggle="tooltip" data-placement="right" title="Compare">
+                            <i class="flaticon-compare"></i>
+                          </a>
+                        </div>
+                      </div>
+                      <div class="product-content">
+                        <div class="pro-cat mb-10">
+                          <a href="shop.html">Juvenil, </a>
+                          <a href="shop.html">Utopia</a>
+                        </div>
+                        <h4>
+                          <a href="product-details.html">Siega</a>
                         </h4>
                         <div class="product-meta">
                           <div class="pro-price">
@@ -261,129 +300,8 @@
                     <div class="product-wrapper mb-50">
                       <div class="product-img mb-25">
                         <a href="product-details.html">
-                          <img src="img/product/pro15.jpg" alt="">
-                          <img class="secondary-img" src="img/product/pro16.jpg" alt="">
-                        </a>
-                        <div class="product-action text-center">
-                          <a href="shop-left-sidebar.html#" title="Shoppingb Cart">
-                            <i class="flaticon-shopping-cart"></i>
-                          </a>
-                          <a href="shop-left-sidebar.html#" title="Quick View">
-                            <i class="flaticon-eye"></i>
-                          </a>
-                          <a href="shop-left-sidebar.html#" data-toggle="tooltip" data-placement="right" title="Compare">
-                            <i class="flaticon-compare"></i>
-                          </a>
-                        </div>
-                      </div>
-                      <div class="product-content">
-                        <div class="pro-cat mb-10">
-                          <a href="shop.html">decor, </a>
-                          <a href="shop.html">furniture</a>
-                        </div>
-                        <h4>
-                          <a href="product-details.html">Minimal Troma Furniture</a>
-                        </h4>
-                        <div class="product-meta">
-                          <div class="pro-price">
-                            <span>$119.00 USD</span>
-                            <span class="old-price">$230.00 USD</span>
-                          </div>
-                        </div>
-                        <div class="product-wishlist">
-                          <a href="shop-left-sidebar.html#"><i class="far fa-heart" title="Wishlist"></i></a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-lg-6 col-md-6">
-                    <div class="product-wrapper mb-50">
-                      <div class="product-img mb-25">
-                        <a href="product-details.html">
-                          <img src="img/product/pro1.jpg" alt="">
-                          <img class="secondary-img" src="img/product/pro2.jpg" alt="">
-                        </a>
-                        <div class="product-action text-center">
-                          <a href="shop-left-sidebar.html#" title="Shoppingb Cart">
-                            <i class="flaticon-shopping-cart"></i>
-                          </a>
-                          <a href="shop-left-sidebar.html#" title="Quick View">
-                            <i class="flaticon-eye"></i>
-                          </a>
-                          <a href="shop-left-sidebar.html#" data-toggle="tooltip" data-placement="right" title="Compare">
-                            <i class="flaticon-compare"></i>
-                          </a>
-                        </div>
-                        <div class="sale-tag">
-                          <span class="new">new</span>
-                          <span class="sale">sale</span>
-                        </div>
-                      </div>
-                      <div class="product-content">
-                        <div class="pro-cat mb-10">
-                          <a href="shop.html">decor, </a>
-                          <a href="shop.html">furniture</a>
-                        </div>
-                        <h4>
-                          <a href="product-details.html">Minimal Troma Furniture</a>
-                        </h4>
-                        <div class="product-meta">
-                          <div class="pro-price">
-                            <span>$119.00 USD</span>
-                            <span class="old-price">$230.00 USD</span>
-                          </div>
-                        </div>
-                        <div class="product-wishlist">
-                          <a href="shop-left-sidebar.html#"><i class="far fa-heart" title="Wishlist"></i></a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-lg-6 col-md-6">
-                    <div class="product-wrapper mb-50">
-                      <div class="product-img mb-25">
-                        <a href="product-details.html">
-                          <img src="img/product/pro29.jpg" alt="">
-                          <img class="secondary-img" src="img/product/pro28.jpg" alt="">
-                        </a>
-                        <div class="product-action text-center">
-                          <a href="shop-left-sidebar.html#" title="Shoppingb Cart">
-                            <i class="flaticon-shopping-cart"></i>
-                          </a>
-                          <a href="shop-left-sidebar.html#" title="Quick View">
-                            <i class="flaticon-eye"></i>
-                          </a>
-                          <a href="shop-left-sidebar.html#" data-toggle="tooltip" data-placement="right" title="Compare">
-                            <i class="flaticon-compare"></i>
-                          </a>
-                        </div>
-                      </div>
-                      <div class="product-content">
-                        <div class="pro-cat mb-10">
-                          <a href="shop.html">decor, </a>
-                          <a href="shop.html">furniture</a>
-                        </div>
-                        <h4>
-                          <a href="product-details.html">Minimal Troma Furniture</a>
-                        </h4>
-                        <div class="product-meta">
-                          <div class="pro-price">
-                            <span>$119.00 USD</span>
-                            <span class="old-price">$230.00 USD</span>
-                          </div>
-                        </div>
-                        <div class="product-wishlist">
-                          <a href="shop-left-sidebar.html#"><i class="far fa-heart" title="Wishlist"></i></a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-lg-6 col-md-6">
-                    <div class="product-wrapper mb-50">
-                      <div class="product-img mb-25">
-                        <a href="product-details.html">
-                          <img src="img/product/pro3.jpg" alt="">
-                          <img class="secondary-img" src="img/product/pro4.jpg" alt="">
+                          <img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1397497541l/20560907.jpg" alt="">
+                          <img class="secondary-img" src="https://th.bing.com/th/id/OIP.kvoStNMcTzzacFY5hF6N9gHaNH?pid=ImgDet&rs=1" alt="">
                         </a>
                         <div class="product-action text-center">
                           <a href="shop-left-sidebar.html#" title="Shoppingb Cart">
@@ -425,8 +343,47 @@
                     <div class="product-wrapper mb-50">
                       <div class="product-img mb-25">
                         <a href="product-details.html">
-                          <img src="img/product/pro6.jpg" alt="">
-                          <img class="secondary-img" src="img/product/pro7.jpg" alt="">
+                          <img src="https://files.readanybook.com/1181131/files/magic-edge.jpg  " alt="">
+                          <img class="secondary-img" src="https://th.bing.com/th/id/R.c3cea1f3789ed06d6cb3bf93a1447187?rik=mlCAZQdOJTOxRQ&pid=ImgRaw&r=0" alt="">
+                        </a>
+                        <div class="product-action text-center">
+                          <a href="shop-left-sidebar.html#" title="Shoppingb Cart">
+                            <i class="flaticon-shopping-cart"></i>
+                          </a>
+                          <a href="shop-left-sidebar.html#" title="Quick View">
+                            <i class="flaticon-eye"></i>
+                          </a>
+                          <a href="shop-left-sidebar.html#" data-toggle="tooltip" data-placement="right" title="Compare">
+                            <i class="flaticon-compare"></i>
+                          </a>
+                        </div>
+                      </div>
+                      <div class="product-content">
+                        <div class="pro-cat mb-10">
+                          <a href="shop.html">decor, </a>
+                          <a href="shop.html">furniture</a>
+                        </div>
+                        <h4>
+                          <a href="product-details.html">Minimal Troma Furniture</a>
+                        </h4>
+                        <div class="product-meta">
+                          <div class="pro-price">
+                            <span>$119.00 USD</span>
+                            <span class="old-price">$230.00 USD</span>
+                          </div>
+                        </div>
+                        <div class="product-wishlist">
+                          <a href="shop-left-sidebar.html#"><i class="far fa-heart" title="Wishlist"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-6 col-md-6">
+                    <div class="product-wrapper mb-50">
+                      <div class="product-img mb-25">
+                        <a href="product-details.html">
+                          <img src="https://th.bing.com/th/id/R.e629c5dba9b5a8a2e6992b5be2d37ac8?rik=knUkw%2beZz9RJZA&pid=ImgRaw&r=0" alt="">
+                          <img class="secondary-img" src="https://th.bing.com/th/id/R.5e33dc25191429c7434ed2fadd2007bb?rik=QNEMT9XMmreNZw&pid=ImgRaw&r=0" alt="">
                         </a>
                         <div class="product-action text-center">
                           <a href="shop-left-sidebar.html#" title="Shoppingb Cart">
@@ -468,47 +425,8 @@
                     <div class="product-wrapper mb-50">
                       <div class="product-img mb-25">
                         <a href="product-details.html">
-                          <img src="img/product/pro19.jpg" alt="">
-                          <img class="secondary-img" src="img/product/pro23.jpg" alt="">
-                        </a>
-                        <div class="product-action text-center">
-                          <a href="shop-left-sidebar.html#" title="Shoppingb Cart">
-                            <i class="flaticon-shopping-cart"></i>
-                          </a>
-                          <a href="shop-left-sidebar.html#" title="Quick View">
-                            <i class="flaticon-eye"></i>
-                          </a>
-                          <a href="shop-left-sidebar.html#" data-toggle="tooltip" data-placement="right" title="Compare">
-                            <i class="flaticon-compare"></i>
-                          </a>
-                        </div>
-                      </div>
-                      <div class="product-content">
-                        <div class="pro-cat mb-10">
-                          <a href="shop.html">decor, </a>
-                          <a href="shop.html">furniture</a>
-                        </div>
-                        <h4>
-                          <a href="product-details.html">Minimal Troma Furniture</a>
-                        </h4>
-                        <div class="product-meta">
-                          <div class="pro-price">
-                            <span>$119.00 USD</span>
-                            <span class="old-price">$230.00 USD</span>
-                          </div>
-                        </div>
-                        <div class="product-wishlist">
-                          <a href="shop-left-sidebar.html#"><i class="far fa-heart" title="Wishlist"></i></a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-lg-6 col-md-6">
-                    <div class="product-wrapper mb-50">
-                      <div class="product-img mb-25">
-                        <a href="product-details.html">
-                          <img src="img/product/pro33.jpg" alt="">
-                          <img class="secondary-img" src="img/product/pro32.jpg" alt="">
+                          <img src="https://www.lanzanos.com/media/images/projects/gallery/2a804f76-d464-11e6-b01b-005056be628f.jpg" alt="">
+                          <img class="secondary-img" src="https://th.bing.com/th/id/R.bc83ef6076bd0f1a4cc8bae898875b21?rik=1c6MZhIgnWqHmQ&pid=ImgRaw&r=0" alt="">
                         </a>
                         <div class="product-action text-center">
                           <a href="shop-left-sidebar.html#" title="Shoppingb Cart">
@@ -550,8 +468,47 @@
                     <div class="product-wrapper mb-50">
                       <div class="product-img mb-25">
                         <a href="product-details.html">
-                          <img src="img/product/pro9.jpg" alt="">
-                          <img class="secondary-img" src="img/product/pro10.jpg" alt="">
+                          <img src="https://d.gr-assets.com/books/1457742437l/29459974.jpg" alt="">
+                          <img class="secondary-img" src="https://th.bing.com/th/id/R.c3cea1f3789ed06d6cb3bf93a1447187?rik=mlCAZQdOJTOxRQ&pid=ImgRaw&r=0" alt="">
+                        </a>
+                        <div class="product-action text-center">
+                          <a href="shop-left-sidebar.html#" title="Shoppingb Cart">
+                            <i class="flaticon-shopping-cart"></i>
+                          </a>
+                          <a href="shop-left-sidebar.html#" title="Quick View">
+                            <i class="flaticon-eye"></i>
+                          </a>
+                          <a href="shop-left-sidebar.html#" data-toggle="tooltip" data-placement="right" title="Compare">
+                            <i class="flaticon-compare"></i>
+                          </a>
+                        </div>
+                      </div>
+                      <div class="product-content">
+                        <div class="pro-cat mb-10">
+                          <a href="shop.html">decor, </a>
+                          <a href="shop.html">furniture</a>
+                        </div>
+                        <h4>
+                          <a href="product-details.html">Minimal Troma Furniture</a>
+                        </h4>
+                        <div class="product-meta">
+                          <div class="pro-price">
+                            <span>$119.00 USD</span>
+                            <span class="old-price">$230.00 USD</span>
+                          </div>
+                        </div>
+                        <div class="product-wishlist">
+                          <a href="shop-left-sidebar.html#"><i class="far fa-heart" title="Wishlist"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-6 col-md-6">
+                    <div class="product-wrapper mb-50">
+                      <div class="product-img mb-25">
+                        <a href="product-details.html">
+                          <img src="https://seleccioneseditorialesdepuebla.com.mx/images/titulos-infantiles/p-cuentos-fabulosos-1.jpg" alt="">
+                          <img class="secondary-img" src="https://th.bing.com/th/id/R.bc83ef6076bd0f1a4cc8bae898875b21?rik=1c6MZhIgnWqHmQ&pid=ImgRaw&r=0" alt="">
                         </a>
                         <div class="product-action text-center">
                           <a href="shop-left-sidebar.html#" title="Shoppingb Cart">
@@ -593,8 +550,51 @@
                     <div class="product-wrapper mb-50">
                       <div class="product-img mb-25">
                         <a href="product-details.html">
-                          <img src="img/product/pro11.jpg" alt="">
-                          <img class="secondary-img" src="img/product/pro12.jpg" alt="">
+                          <img src="https://th.bing.com/th/id/OIP.ty5YLVKXfpogjgrK9bVW4QHaJs?pid=ImgDet&rs=1" alt="">
+                          <img class="secondary-img" src="https://th.bing.com/th/id/OIP.kvoStNMcTzzacFY5hF6N9gHaNH?pid=ImgDet&rs=1" alt="">
+                        </a>
+                        <div class="product-action text-center">
+                          <a href="shop-left-sidebar.html#" title="Shoppingb Cart">
+                            <i class="flaticon-shopping-cart"></i>
+                          </a>
+                          <a href="shop-left-sidebar.html#" title="Quick View">
+                            <i class="flaticon-eye"></i>
+                          </a>
+                          <a href="shop-left-sidebar.html#" data-toggle="tooltip" data-placement="right" title="Compare">
+                            <i class="flaticon-compare"></i>
+                          </a>
+                        </div>
+                        <div class="sale-tag">
+                          <span class="new">new</span>
+                          <span class="sale">sale</span>
+                        </div>
+                      </div>
+                      <div class="product-content">
+                        <div class="pro-cat mb-10">
+                          <a href="shop.html">decor, </a>
+                          <a href="shop.html">furniture</a>
+                        </div>
+                        <h4>
+                          <a href="product-details.html">Minimal Troma Furniture</a>
+                        </h4>
+                        <div class="product-meta">
+                          <div class="pro-price">
+                            <span>$119.00 USD</span>
+                            <span class="old-price">$230.00 USD</span>
+                          </div>
+                        </div>
+                        <div class="product-wishlist">
+                          <a href="shop-left-sidebar.html#"><i class="far fa-heart" title="Wishlist"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-6 col-md-6">
+                    <div class="product-wrapper mb-50">
+                      <div class="product-img mb-25">
+                        <a href="product-details.html">
+                          <img src="https://th.bing.com/th/id/OIP.b_TL9wuPxyUhj9ehFx05ggHaLH?pid=ImgDet&rs=1" alt="">
+                          <img class="secondary-img" src="https://1.bp.blogspot.com/-qAaQByMfZXM/Wd0NPZyFb6I/AAAAAAAABEY/6vX5sgfuHssI3orZLd1LWkwMS1P-3hUSQCLcBGAs/s320/El_d%25C3%25ADa_que_dej%25C3%25B3_de_nevar_en_Alaska_Alice_Kellen-libros4.com.jpg" alt="">
                         </a>
                         <div class="product-action text-center">
                           <a href="shop-left-sidebar.html#" title="Shoppingb Cart">
@@ -931,10 +931,6 @@
                           <span class="old-price">$230.00 USD</span>
                         </div>
                       </div>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-                        labore et dolore magna
-                        aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                        commodo consequat.</p>
                       <div class="product-action">
                         <a href="shop-left-sidebar.html#" title="Shoppingb Cart">
                           <i class="flaticon-shopping-cart"></i>
@@ -977,19 +973,6 @@
                           <span class="old-price">$230.00 USD</span>
                         </div>
                       </div>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-                        labore et dolore magna
-                        aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                        commodo consequat.</p>
-                      <div class="product-action">
-                        <a href="shop-left-sidebar.html#" title="Shoppingb Cart">
-                          <i class="flaticon-shopping-cart"></i>
-                        </a>
-                        <a href="shop-left-sidebar.html#" title="Quick View">
-                          <i class="flaticon-eye"></i>
-                        </a>
-                        <a href="shop-left-sidebar.html#" title="Wishlist"><i class="flaticon-like"></i></a>
-                      </div>
                     </div>
                   </div>
                 </div>
@@ -1013,6 +996,10 @@
 
 
   </main>
+  <footer>
+    <my-footer></my-footer>
+  </footer>
+
 
   <a id="scrollUp" href="#top" style="position: fixed; z-index: 2147483647; display: block;">
     <i class="fas fa-angle-double-up"></i>
@@ -1021,10 +1008,12 @@
   
 <script>
 import Header from '../components/Header.vue'
+import Footer from '../components/Footer.vue'
 export default {
   name: 'BooksPage',
   components: {
     "my-header": Header,
+    "my-footer": Footer,
   }
 }
 </script>

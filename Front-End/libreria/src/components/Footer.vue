@@ -105,7 +105,6 @@
         </div>
     </div> <!-- end fullscreen search -->
 
- 
 </template>
 <script>
 export default {
