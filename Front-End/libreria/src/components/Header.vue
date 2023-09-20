@@ -33,7 +33,7 @@
                             <nav id="mobile-menu">
                                 <ul>
                                     <li>
-                                        <router-link to="/home">home</router-link>
+                                        <router-link to="/home">Inicio</router-link>
 
                                     </li>
 
@@ -79,7 +79,7 @@
                                     </li>
 
                                     <li>
-                                        <router-link to="/catalog">Catalogos</router-link>
+                                        <router-link to="/catalog">Catálogos</router-link>
                                     </li>
 
                                     <li>
@@ -90,7 +90,7 @@
                                         <a href="index.html#">Registro</a>
                                         <ul class="submenu">
                                             <li>
-                                                <router-link to="/login">Inicio Secion</router-link>
+                                                <router-link to="/login">Inicio Sesión</router-link>
                                             </li>
 
                                             <li>
@@ -127,12 +127,12 @@
                                             </div>
                                             <div class="cart-content">
                                                 <h3>
-                                                    <a href="product-details.html">Black & White Shoes</a>
+                                                    <a href="product-details.html">Aprendiendo a leer</a>
                                                 </h3>
                                                 <div class="cart-price">
-                                                    <span class="new">$ 229.9</span>
+                                                    <span class="new">$250</span>
                                                     <span>
-                                                        <del>$239.9</del>
+                                                        <del>$300</del>
                                                     </span>
                                                 </div>
                                             </div>
@@ -173,7 +173,7 @@
                                             </div>
                                             <div class="cart-content">
                                                 <h3>
-                                                    <a href="product-details.html">Black & White Shoes</a>
+                                                    <a href="product-details.html">El laberinto de la soledad</a>
                                                 </h3>
                                                 <div class="cart-price">
                                                     <span class="new">$ 229.9</span>
