@@ -45,26 +45,26 @@
                                 </div>
                                 <div class="col-md-6">
                                     <div class="checkout-form-list">
-                                        <label>First Name <span class="required">*</span></label>
-                                        <input type="text" placeholder="" />
+                                        <label>Nombre<span class="required">*</span></label>
+                                        <input type="text" placeholder="Nombre" />
                                     </div>
                                 </div>
                                 <div class="col-md-6">
                                     <div class="checkout-form-list">
-                                        <label>Last Name <span class="required">*</span></label>
-                                        <input type="text" placeholder="" />
+                                        <label>Apellidos <span class="required">*</span></label>
+                                        <input type="text" placeholder="Aellidos" />
                                     </div>
                                 </div>
                                 <div class="col-md-12">
                                     <div class="checkout-form-list">
-                                        <label>Company Name</label>
-                                        <input type="text" placeholder="" />
+                                        <label>Nombre de la compañia</label>
+                                        <input type="text" placeholder="Compañia" />
                                     </div>
                                 </div>
                                 <div class="col-md-12">
                                     <div class="checkout-form-list">
-                                        <label>Address <span class="required">*</span></label>
-                                        <input type="text" placeholder="Street address" />
+                                        <label>Direccion <span class="required">*</span></label>
+                                        <input type="text" placeholder="Direccion" />
                                     </div>
                                 </div>
                                 <div class="col-md-12">
@@ -74,38 +74,38 @@
                                 </div>
                                 <div class="col-md-12">
                                     <div class="checkout-form-list">
-                                        <label>Town / City <span class="required">*</span></label>
-                                        <input type="text" placeholder="Town / City" />
+                                        <label>Ciudad <span class="required">*</span></label>
+                                        <input type="text" placeholder="Ciudad" />
                                     </div>
                                 </div>
                                 <div class="col-md-6">
                                     <div class="checkout-form-list">
-                                        <label>State / County <span class="required">*</span></label>
-                                        <input type="text" placeholder="" />
+                                        <label>Localidad <span class="required">*</span></label>
+                                        <input type="text" placeholder="Localidad" />
                                     </div>
                                 </div>
                                 <div class="col-md-6">
                                     <div class="checkout-form-list">
-                                        <label>Postcode / Zip <span class="required">*</span></label>
-                                        <input type="text" placeholder="Postcode / Zip" />
+                                        <label>Codigo Postal <span class="required">*</span></label>
+                                        <input type="text" placeholder="Código Postal" />
                                     </div>
                                 </div>
                                 <div class="col-md-6">
                                     <div class="checkout-form-list">
-                                        <label>Email Address <span class="required">*</span></label>
-                                        <input type="email" placeholder="" />
+                                        <label>Correo electrónico <span class="required">*</span></label>
+                                        <input type="email" placeholder="email" />
                                     </div>
                                 </div>
                                 <div class="col-md-6">
                                     <div class="checkout-form-list">
-                                        <label>Phone <span class="required">*</span></label>
-                                        <input type="text" placeholder="Postcode / Zip" />
+                                        <label>Telefono<span class="required">*</span></label>
+                                        <input type="text" placeholder="Telefono" />
                                     </div>
                                 </div>
                                 <div class="col-md-12">
                                     <div class="checkout-form-list create-acc">
                                         <input id="cbox" type="checkbox" />
-                                        <label>Create an account?</label>
+                                        <label>Crear una cuenta?</label>
                                     </div>
                                     <div id="cbox_info" class="checkout-form-list create-account">
                                         <p>Create an account by entering the information below. If you are a returning
@@ -118,7 +118,7 @@
                             <div class="different-address">
                                 <div class="ship-different-title">
                                     <h3>
-                                        <label>Ship to a different address?</label>
+                                        <label>Direccion alterna</label>
                                         <input id="ship-box" type="checkbox" />
                                     </h3>
                                 </div>
@@ -126,80 +126,92 @@
                                     <div class="row">
                                         <div class="col-md-12">
                                             <div class="country-select">
-                                                <label>Country <span class="required">*</span></label>
-                                                <select>
-                                                    <option value="volvo">bangladesh</option>
-                                                    <option value="saab">Algeria</option>
-                                                    <option value="mercedes">Afghanistan</option>
-                                                    <option value="audi">Ghana</option>
-                                                    <option value="audi2">Albania</option>
-                                                    <option value="audi3">Bahrain</option>
-                                                    <option value="audi4">Colombia</option>
-                                                    <option value="audi5">Dominican Republic</option>
-                                                </select>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6">
-                                            <div class="checkout-form-list">
-                                                <label>First Name <span class="required">*</span></label>
-                                                <input type="text" placeholder="" />
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6">
-                                            <div class="checkout-form-list">
-                                                <label>Last Name <span class="required">*</span></label>
-                                                <input type="text" placeholder="" />
-                                            </div>
-                                        </div>
-                                        <div class="col-md-12">
-                                            <div class="checkout-form-list">
-                                                <label>Company Name</label>
-                                                <input type="text" placeholder="" />
-                                            </div>
-                                        </div>
-                                        <div class="col-md-12">
-                                            <div class="checkout-form-list">
-                                                <label>Address <span class="required">*</span></label>
-                                                <input type="text" placeholder="Street address" />
-                                            </div>
-                                        </div>
-                                        <div class="col-md-12">
-                                            <div class="checkout-form-list">
-                                                <input type="text" placeholder="Apartment, suite, unit etc. (optional)" />
-                                            </div>
-                                        </div>
-                                        <div class="col-md-12">
-                                            <div class="checkout-form-list">
-                                                <label>Town / City <span class="required">*</span></label>
-                                                <input type="text" placeholder="Town / City" />
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6">
-                                            <div class="checkout-form-list">
-                                                <label>State / County <span class="required">*</span></label>
-                                                <input type="text" placeholder="" />
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6">
-                                            <div class="checkout-form-list">
-                                                <label>Postcode / Zip <span class="required">*</span></label>
-                                                <input type="text" placeholder="Postcode / Zip" />
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6">
-                                            <div class="checkout-form-list">
-                                                <label>Email Address <span class="required">*</span></label>
-                                                <input type="email" placeholder="" />
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6">
-                                            <div class="checkout-form-list">
-                                                <label>Phone <span class="required">*</span></label>
-                                                <input type="text" placeholder="Postcode / Zip" />
-                                            </div>
-                                        </div>
+                                        <label>Pais <span class="required">*</span></label>
+                                        <select>
+                                            <option value="volvo">Mexico</option>
+                                            <option value="saab">Estado de Mexico</option>
+                                            <option value="mercedes">Toluca</option>
+                                            <option value="audi">Colombia</option>
+                                            <option value="audi2">Albania</option>
+                                            <option value="audi3">Bahrain</option>
+                                            <option value="audi4">Colombia</option>
+                                            <option value="audi5">Dominican Republic</option>
+                                        </select>
                                     </div>
                                 </div>
+                                <div class="col-md-6">
+                                    <div class="checkout-form-list">
+                                        <label>Nombre<span class="required">*</span></label>
+                                        <input type="text" placeholder="Nombre" />
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="checkout-form-list">
+                                        <label>Apellidos <span class="required">*</span></label>
+                                        <input type="text" placeholder="Aellidos" />
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="checkout-form-list">
+                                        <label>Nombre de la compañia</label>
+                                        <input type="text" placeholder="Compañia" />
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="checkout-form-list">
+                                        <label>Direccion <span class="required">*</span></label>
+                                        <input type="text" placeholder="Direccion" />
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="checkout-form-list">
+                                        <input type="text" placeholder="Apartment, suite, unit etc. (optional)" />
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="checkout-form-list">
+                                        <label>Ciudad <span class="required">*</span></label>
+                                        <input type="text" placeholder="Ciudad" />
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="checkout-form-list">
+                                        <label>Localidad <span class="required">*</span></label>
+                                        <input type="text" placeholder="Localidad" />
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="checkout-form-list">
+                                        <label>Codigo Postal <span class="required">*</span></label>
+                                        <input type="text" placeholder="Código Postal" />
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="checkout-form-list">
+                                        <label>Correo electrónico <span class="required">*</span></label>
+                                        <input type="email" placeholder="email" />
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="checkout-form-list">
+                                        <label>Telefono<span class="required">*</span></label>
+                                        <input type="text" placeholder="Telefono" />
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="checkout-form-list create-acc">
+                                        <input id="cbox" type="checkbox" />
+                                        <label>Agregar una cuenta</label>
+                                    </div>
+                                    <div id="cbox_info" class="checkout-form-list create-account">
+                                        <p>Create an account by entering the information below. If you are a returning
+                                            customer please login at the top of the page.</p>
+                                        <label>Contraseña de la cuenta <span class="required">*</span></label>
+                                        <input type="password" placeholder="password" />
+                                    </div>
+                                </div>
+                            </div>
+                            </div>
                                 <div class="order-notes">
                                     <div class="checkout-form-list">
                                         <label>Order Notes</label>
@@ -211,19 +223,19 @@
                     </div>
                     <div class="col-lg-6">
                         <div class="your-order mb-30 ">
-                            <h3>Your order</h3>
+                            <h3>Tu orden</h3>
                             <div class="your-order-table table-responsive">
                                 <table>
                                     <thead>
                                         <tr>
-                                            <th class="product-name">Product</th>
-                                            <th class="product-total">Total</th>
+                                            <th class="product-name">Nombre del libro</th>
+                                            <th class="product-total">SIEGA</th>
                                         </tr>
                                     </thead>
                                     <tbody>
                                         <tr class="cart_item">
                                             <td class="product-name">
-                                                Vestibulum suscipit <strong class="product-quantity"> Ã— 1</strong>
+                                                 <strong class="product-quantity"> Precio unitario</strong>
                                             </td>
                                             <td class="product-total">
                                                 <span class="amount">$165.00</span>
@@ -231,7 +243,7 @@
                                         </tr>
                                         <tr class="cart_item">
                                             <td class="product-name">
-                                                Vestibulum dictum magna <strong class="product-quantity"> Ã— 1</strong>
+                                                <strong class="product-quantity"> Cupon de descuento</strong>
                                             </td>
                                             <td class="product-total">
                                                 <span class="amount">$50.00</span>
@@ -240,22 +252,22 @@
                                     </tbody>
                                     <tfoot>
                                         <tr class="cart-subtotal">
-                                            <th>Cart Subtotal</th>
+                                            <th>Subtotal</th>
                                             <td><span class="amount">$215.00</span></td>
                                         </tr>
                                         <tr class="shipping">
-                                            <th>Shipping</th>
+                                            <th>Envio</th>
                                             <td>
                                                 <ul>
                                                     <li>
                                                         <input type="radio" />
                                                         <label>
-                                                            Flat Rate: <span class="amount">$7.00</span>
+                                                           Local: <span class="amount">$30.00 MXN</span>
                                                         </label>
                                                     </li>
                                                     <li>
                                                         <input type="radio" />
-                                                        <label>Free Shipping:</label>
+                                                        <label>Internacional: <span class="amount">$150.00 MXN</span></label>
                                                     </li>
                                                     <li></li>
                                                 </ul>
@@ -277,7 +289,7 @@
                                             <h5 class="mb-0">
                                                 <button class="btn-link" type="button" data-toggle="collapse" data-target="#collapseOne"
                                                     aria-expanded="true" aria-controls="collapseOne">
-                                                    Direct Bank Transfer
+                                                    TRANSFERENCIA DIRECTA 
                                                 </button>
                                             </h5>
                                         </div>
@@ -297,7 +309,7 @@
                                             <h5 class="mb-0">
                                                 <button class="btn-link collapsed" type="button" data-toggle="collapse"
                                                     data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                                    Cheque Payment
+                                                    TARJETA DE CREDITO
                                                 </button>
                                             </h5>
                                         </div>
@@ -327,7 +339,7 @@
                                     </div>
                                 </div>
                                 <div class="order-button-payment mt-20">
-                                    <button type="submit" class="btn theme-btn">Place order</button>
+                                    <button type="submit" class="btn theme-btn">Enviar Orden</button>
                                 </div>
                             </div>
                         </div>
@@ -363,14 +375,46 @@
 </template>
 
 <script>
-import Header from '../components/Header.vue' ;
-import Footer from '../components/Footer.vue' ;
+import Header from "../components/Header.vue";
+import Footer from '../components/Footer.vue';
 
 export default {
-name: 'CheckoutPage',
-components: {
-"my-header": Header,
-"my-footer": Footer,
+    name: 'CheckoutPage',
+    components: {
+        "my-header": Header,
+        "my-footer": Footer,
+    },
+
 }
-}
+   /* mounted() {
+        // Lista de scripts que deseas cargar
+        const scripts = [
+            "../js/vendor/jquery-1.12.4.min.js",
+            "../js/jquery-ui.js",
+            "../js/popper.min.js",
+            "../js/bootstrap.min.js",
+            "../js/owl.carousel.min.js",
+            "../js/isotope.pkgd.min.js",
+            "../js/slick.min.js",
+            "../js/jquery.meanmenu.min.js",
+            "../js/ajax-form.js",
+            "../js/wow.min.js",
+            "../js/jquery.scrollUp.min.js",
+            "../js/jquery.final-countdown.min.js",
+            "../js/imagesloaded.pkgd.min.js",
+            "../js/jquery.magnific-popup.min.js",
+            "../js/plugins.js",
+            "../js/main.js"
+        ];
+
+        // Usar Vue.nextTick() para cargar los scripts después del renderizado completo
+        this.$nextTick(() => {
+            scripts.forEach((scriptSrc) => {
+                const script = document.createElement('script');
+                script.src = scriptSrc;
+                document.body.appendChild(script);
+            });
+        });
+    }*/
+
 </script>

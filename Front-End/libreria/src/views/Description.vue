@@ -113,7 +113,7 @@
                                             <button class="details-action-icon" type="submit"><i
                                                     class="fas fa-hourglass"></i></button>
                                             <div class="details-cart mt-40">
-                                                <button class="btn theme-btn">Comprar</button>
+                                                <router-link to="/carts"  class="btn theme-btn">Comprar</router-link>
                                             </div>
                                         </form>
                                     </div>
@@ -250,7 +250,7 @@
                     </div>
                     <div class="col-xl-4 col-lg-4">
                         <div class="pro-details-banner">
-                            <a href="shop.html"><img src="img/banner/pro-details.jpg" alt=""></a>
+                            <router-link to="/carts"><img src="img/banner/pro-details.jpg" alt=""></router-link>
                         </div>
                     </div>
                 </div>
@@ -277,6 +277,7 @@ export default {
     components: {
         "my-header": Header,
         "my-footer": Footer,
-    }
+    },
+    
 }
 </script>

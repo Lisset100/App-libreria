@@ -1007,14 +1007,41 @@
 </template>
   
 <script>
-import Header from '../components/Header.vue'
-import Footer from '../components/Footer.vue'
+import Header from '../components/Header.vue';
+import axios from 'axios';
+import Footer from '../components/Footer.vue';
 export default {
   name: 'BooksPage',
   components: {
     "my-header": Header,
     "my-footer": Footer,
+  },
+data() {
+    return {
+      currentIndex: 0,  // Índice para acceder a las imágenes en el orden recibido
+      images: [],       // Array para almacenar las imágenes obtenidas del endpoint.
+      books: []         // Array para almacenar los libros obtenidos del endpoint.
+    };
+  },
+  mounted() {
+    // Obtener las imágenes
+    axios.get('http://127.0.0.1:8000/api/multimedias')
+      .then(response => {
+        this.images = response.data;
+      });
+
+    // Obtener la información de los libros
+    axios.get('http://127.0.0.1:8000/api/libros')
+      .then(response => {
+        this.books = response.data;
+      });
+  },
+  methods: {
+    // Método para obtener el título del libro basado en su ID
+    getBookTitle(bookId) {
+      const book = this.books.find(b => b.id === bookId);
+      return book ? book.title : 'Título no encontrado';
+    }
   }
 }
 </script>
-  

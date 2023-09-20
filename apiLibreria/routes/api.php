@@ -16,6 +16,7 @@ use App\Http\Controllers\Api\MultimediaController;
 use App\Http\Controllers\Api\IdiomaController;
 use App\Http\Controllers\Api\DimensionController;
 use App\Http\Controllers\Api\UserController;
+use App\Http\Controllers\Api\CuponController;
 
 /*
 |--------------------------------------------------------------------------
@@ -41,6 +42,7 @@ Route::apiResource('multimedias', MultimediaController::class);
 Route::apiResource('idiomas', IdiomaController::class);
 Route::apiResource('dimensiones', DimensionController::class);
 Route::apiResource('users', UserController::class);
+Route::apiResource('cupones', CuponController::class);
 
 
 Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
