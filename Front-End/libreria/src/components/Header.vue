@@ -150,12 +150,16 @@
                                             </div>
                                             <div class="cart-content">
                                                 <h3>
+<<<<<<< HEAD
                                                     <a href="/description">Black & White Shoes</a>
+=======
+                                                    <a href="product-details.html">Anne Frank. Diario</a>
+>>>>>>> 04f0e3e2b5db47147277634a5555583756e0512e
                                                 </h3>
                                                 <div class="cart-price">
-                                                    <span class="new">$ 229.9</span>
+                                                    <span class="new">$ 180</span>
                                                     <span>
-                                                        <del>$239.9</del>
+                                                        <del>$200</del>
                                                     </span>
                                                 </div>
                                             </div>
