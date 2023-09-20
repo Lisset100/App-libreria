@@ -9,24 +9,24 @@
                 <div class="row">
                     <div class="col-lg-8 offset-lg-2">
                         <div class="basic-login">
-                            <h3 class="text-center mb-60">Iniciar Sesion</h3>
+                            <h3 class="text-center mb-60">Iniciar Sesión</h3>
                             <form action="login.html#">
-                                <label for="name">Correo electronico <span>**</span></label>
+                                <label for="name">Correo electrónico <span>**</span></label>
                                 <input id="name" type="text" placeholder="Ingresa tu correo electronico" />
                                 <label for="pass">Contraseña <span>**</span></label>
                                 <input id="pass" type="password" placeholder="Ingresa tu contraseña" />
                                 <div class="login-action mb-20 fix">
                                     <span class="log-rem f-left">
                                         <input id="remember" type="checkbox" />
-                                        <label for="remember">Recordar me!</label>
+                                        <label for="remember">Recordarme!</label>
                                     </span>
                                     <span class="forgot-login f-right">
-                                        <a href="login.html#">Olvide mi Contraseña</a>
+                                        <a href="login.html#">Olvidé mi Contraseña</a>
                                     </span>
                                 </div>
-                                <button class="btn theme-btn-2 w-100">Iniciar Sesion</button>
+                                <button class="btn theme-btn-2 w-100">Iniciar Sesión</button>
                                 <div class="or-divide"><span>or</span></div>
-                                <button class="btn theme-btn w-100">Registrar me</button>
+                                <button class="btn theme-btn w-100">Registrarme</button>
                             </form>
                         </div>
                     </div>

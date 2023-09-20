@@ -87,7 +87,7 @@
 
                                     </li>
                                     <li>
-                                        <a href="index.html#">Registro</a>
+                                        <router-link to="/register">Registro</router-link>
                                         <ul class="submenu">
                                             <li>
                                                 <router-link to="/login">Inicio Sesión</router-link>
@@ -150,12 +150,12 @@
                                             </div>
                                             <div class="cart-content">
                                                 <h3>
-                                                    <a href="product-details.html">Black & White Shoes</a>
+                                                    <a href="product-details.html">Anne Frank. Diario</a>
                                                 </h3>
                                                 <div class="cart-price">
-                                                    <span class="new">$ 229.9</span>
+                                                    <span class="new">$ 180</span>
                                                     <span>
-                                                        <del>$239.9</del>
+                                                        <del>$200</del>
                                                     </span>
                                                 </div>
                                             </div>

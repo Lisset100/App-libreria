@@ -14,14 +14,14 @@
                                 
                                 <label for="name">Nombre <span>**</span></label>
                                 <input id="name" type="text" placeholder="Ingresa tu nombre completo" />
-                                <label for="email-id">Correo electronico <span>**</span></label>
+                                <label for="email-id">Correo electrónico <span>**</span></label>
                                 <input id="email-id" type="text" placeholder="Ingresa correo electronico" />
                                 <label for="pass">Contraseña <span>**</span></label>
                                 <input id="pass" type="password" placeholder="Ingresa tu contraseña" />
                                 <div class="mt-10"></div>
                                 <button class="btn theme-btn-2 w-100">Registrar</button>
                                 <div class="or-divide"><span>or</span></div>
-                                <button class="btn theme-btn w-100">Iniciar Sesion</button>
+                                <button class="btn theme-btn w-100">Iniciar Sesión</button>
                             </form>
                         </div>
                     </div>
