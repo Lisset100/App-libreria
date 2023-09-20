@@ -135,3 +135,12 @@ export default {
     }
 }
 </script>
+
+<style scoped>
+.coupon-message {
+    margin-top: 10px;
+    color: #e74c3c;  /* Color rojo para mensajes de error o información importante */
+    font-size: 14px;
+    font-weight: 500;
+}
+</style>
