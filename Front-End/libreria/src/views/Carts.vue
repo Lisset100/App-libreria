@@ -88,13 +88,8 @@
 
     </main>
 
-<<<<<<< HEAD
     <a id="scrollUp" href="#top" style="position: fixed; z-index: 2147483647; display: block;">
         <i class="fas fa-angle-double-up"></i>
-=======
-<a id="scrollUp" href="#top" style="position: fixed; z-index: 2147483647; display: block;">
-    <i class="fas fa-angle-double-up"></i>
->>>>>>> 04f0e3e2b5db47147277634a5555583756e0512e
     </a>
 
     <footer>
@@ -106,7 +101,6 @@
 
 <script>
 import Footer from '../components/Footer.vue';
-<<<<<<< HEAD
 import Header from '../components/Header.vue';
 import axios from 'axios';  // Asegúrate de tener axios instalado.
 
@@ -140,41 +134,6 @@ export default {
       }
     }
   }
-=======
-import Header from '../components/Header.vue' ;
-import axios from 'axios';
-
-export default {
-    name: 'CartsPage',
-    components: {
-        'my-header': Header,
-        'my-footer': Footer,
-    },
-    data() {
-        return {
-        couponCode: '',
-        message: ''
-        };
-    },
-    methods: {
-        async applyCoupon() {
-        try {
-            const response = await axios.get('http://127.0.0.1:8000/api/cupones');
-            const coupons = response.data;
-
-            const foundCoupon = coupons.find(c => c.Codigo === this.couponCode);
-            if (foundCoupon) {
-            this.message = `Cupón ${foundCoupon.Codigo} aplicado. Recibirás un descuento de ${foundCoupon.Descuento} con fecha de expiracion ${foundCoupon.Fecha_Expiracion}%.`;
-            } else {
-            this.message = 'Código de cupón no válido. Por favor, prueba con otro.';
-            }
-        } catch (error) {
-            console.error("Error fetching coupons:", error);
-            this.message = 'Hubo un error al verificar el cupón. Por favor, inténtalo de nuevo más tarde.';
-        }
-        }
-    }
->>>>>>> 04f0e3e2b5db47147277634a5555583756e0512e
 }
 </script>
 
