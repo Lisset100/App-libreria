@@ -3,6 +3,7 @@ import { createApp } from "vue";
 import App from "./App.vue";
 import router from "./router";
 import "./css/bootstrap.min.css";
+import "./js/bootstrap.min.js";
 import "./css/owl.carousel.min.css";
 import "./css/animate.min.css";
 import "./css/magnific-popup.css";
