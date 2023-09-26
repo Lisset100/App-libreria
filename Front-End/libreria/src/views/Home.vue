@@ -75,25 +75,25 @@
   <div class="card">
     <img src="../assets/HanselYGretel.jpg" class="card-img-top" alt="Imagen del libro Hansel y Gretel">
     <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-      <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+      <h5 class="card-title">Hansel y Gretel</h5>
+      <p class="card-text">Un cuento de hadas alemán recogido por los hermanos Grimm y publicado en 1812. En la colección de cuentos de los Hermanos Grimm, Hansel y Gretel es el n.º 15.</p>
+      <p class="card-text"><small class="text-body-secondary"></small></p>
     </div>
   </div>
   <div class="card">
     <img src="../assets/ElPatitoFeo.jpg" class="card-img-top" alt="El pagtito feo">
     <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-      <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+      <h5 class="card-title">El patito feo</h5>
+      <p class="card-text">El patito feo es un cuento clásico-contemporáneo escrito por Hans Christian Andersen, escritor y poeta danés, sobre un patito particularmente más grande, torpe y feo que sus hermanitos, los cuales le molestaban por lo feo que era.</p>
+      <p class="card-text"><small class="text-body-secondary"></small></p>
     </div>
   </div>
   <div class="card">
     <img src="../assets/CuentosInfantiles.jpg" class="card-img-top" alt="Cuentos infantiles">
     <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-      <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+      <h5 class="card-title">Cuentos infantiles</h5>
+      <p class="card-text">ANTOLOGIA DE CUENTOS INFANTILES</p>
+      <p class="card-text"><small class="text-body-secondary"></small></p>
     </div>
   </div>
 </div>
