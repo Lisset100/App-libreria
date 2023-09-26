@@ -191,13 +191,13 @@
                                         <li>
                                             <div class="total-price">
                                                 <span class="f-left">Total:</span>
-                                                <span class="f-right">$300.0</span>
+                                                <span class="f-right">$659.9</span>
                                             </div>
                                         </li>
                                         <li>
                                             <div class="checkout-link">
-                                                <router-link to="/carts">Shopping Cart</router-link>
-                                                <router-link to="/checkout" class="red-color" >Checkout</router-link>
+                                                <router-link to="/carts">Carrito de compras</router-link>
+                                                <router-link to="/checkout" class="red-color" >Comprar</router-link>
                                             </div>
                                         </li>
                                     </ul>

@@ -50,7 +50,7 @@
       <img src="../assets/carrusel1.png" class="d-block w-100" alt="...">
     </div>
     <div class="carousel-item">
-      <img src="../assets/carrusel3.png" class="d-block w-100" alt="...">
+      <img src="../assets/Slider-Libros.webp" class="d-block w-100" alt="...">
     </div>
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
@@ -65,7 +65,38 @@
 
 
 
-
+<br>
+<div> <h1>Sección Infantil</h1> </div>
+<br>
+<h2>Los más leídos</h2>
+<br>
+<br>
+<div class="card-group">
+  <div class="card">
+    <img src="../assets/HanselYGretel.jpg" class="card-img-top" alt="Imagen del libro Hansel y Gretel">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+  <div class="card">
+    <img src="../assets/ElPatitoFeo.jpg" class="card-img-top" alt="El pagtito feo">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+      <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+  <div class="card">
+    <img src="../assets/CuentosInfantiles.jpg" class="card-img-top" alt="Cuentos infantiles">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+      <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+</div>
 
 
 
@@ -126,25 +157,7 @@
                                                                 <i class="flaticon-compare"></i>
                                                             </a>
                                                         </div>
-                                                        <div class="sale-tag">
-                                                            <span class="new">new</span>
-                                                            <span class="sale">sale</span>
-                                                        </div>
-                                                    </div>
-                                                    <div class="product-content">
-                                                        <div class="pro-cat mb-10">
-                                                            <a href="shop.html">decor, </a>
-                                                            <a href="shop.html">furniture</a>
-                                                        </div>
-                                                        <h4>
-                                                            <a href="product-details.html">Minimal Troma Furniture</a>
-                                                        </h4>
-                                                        <div class="product-meta">
-                                                            <div class="pro-price">
-                                                                <span>$119.00 USD</span>
-                                                                <span class="old-price">$230.00 USD</span>
-                                                            </div>
-                                                        </div>
+                                                        
                                                         <div class="product-wishlist">
                                                             <a href="index.html#"><i class="far fa-heart" title="Wishlist"></i></a>
                                                         </div>
@@ -590,21 +603,6 @@
                                                             <a href="index.html#" data-toggle="tooltip" data-placement="right" title="Compare">
                                                                 <i class="flaticon-compare"></i>
                                                             </a>
-                                                        </div>
-                                                    </div>
-                                                    <div class="product-content">
-                                                        <div class="pro-cat mb-10">
-                                                            <a href="shop.html">decor, </a>
-                                                            <a href="shop.html">furniture</a>
-                                                        </div>
-                                                        <h4>
-                                                            <a href="product-details.html">Minimal Troma Furniture</a>
-                                                        </h4>
-                                                        <div class="product-meta">
-                                                            <div class="pro-price">
-                                                                <span>$119.00 USD</span>
-                                                                <span class="old-price">$230.00 USD</span>
-                                                            </div>
                                                         </div>
                                                         <div class="product-wishlist">
                                                             <a href="index.html#"><i class="far fa-heart" title="Wishlist"></i></a>
