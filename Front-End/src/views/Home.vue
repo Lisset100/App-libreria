@@ -961,9 +961,11 @@
 </template>
 
 <script>
-import Header from '../components/Header' ;
-import Footer from '../components/Footer' ;
 import * as Bootstrap from "bootstrap";
+import "bootstrap/dist/css/bootstrap.css";
+import "bootstrap/dist/js/bootstrap.bundle";
+import Footer from '../components/Footer';
+import Header from '../components/Header';
 
 export default {
   name: 'HomePage',

@@ -1,8 +1,7 @@
 <template>
   <div id="app">
-    <!-- Navegación Essta pagina es la que se compila, es decir como el index-->
+    <!-- Navegación (esta página es la que se compila, es decir, como el index) -->
     
-  
     <!-- Contenido principal -->
     <main>
       <router-view></router-view>

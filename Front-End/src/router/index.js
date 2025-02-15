@@ -1,16 +1,16 @@
 import { createRouter, createWebHistory } from "vue-router";
-import Home from "../views/Home.vue";
-import Books from "../views/Books.vue";
-import Ebooks from "../views/Ebooks.vue";
-import Catalog from "../views/Catalog.vue";
-import Login from "../views/Login.vue";
-import Register from "../views/Register.vue";
-import Carts from "../views/Carts.vue";
 import Footer from "../components/Footer.vue";
 import Header from "../components/Header.vue";
+import Books from "../views/Books.vue";
+import Carts from "../views/Carts.vue";
+import Catalog from "../views/Catalog.vue";
+import Checkout from "../views/Checkout.vue";
 import Contact from "../views/Contact.vue";
 import Description from "../views/Description.vue";
-import Checkout from "../views/Checkout.vue";
+import Ebooks from "../views/Ebooks.vue";
+import Home from "../views/Home.vue";
+import Login from "../views/Login.vue";
+import Register from "../views/Register.vue";
 
 
 const routes = [
@@ -25,8 +25,8 @@ const routes = [
   { path: "/footer", component: Footer },
   { path: "/header", component: Header },
   { path: "/contact", component: Contact },
-  { path: "/description", component: Description},
-  { path: "/checkout", component: Checkout},
+  { path: "/description", component: Description },
+  { path: "/checkout", component: Checkout },
 
 ];
 
